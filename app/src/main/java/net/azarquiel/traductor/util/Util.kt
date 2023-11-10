@@ -20,7 +20,7 @@ object Util {
         this.context = context
         this.XMLFile = XMLFile
         if (!File("/data/data/${context.packageName}/shared_prefs/$XMLFile").exists()) {
-            Toast.makeText(context,"Copiando Cartones....", Toast.LENGTH_LONG).show()
+            Toast.makeText(context,"Copying words...", Toast.LENGTH_LONG).show()
             copiarXML()
         }
     }
